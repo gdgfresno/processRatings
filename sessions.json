@@ -1,0 +1,591 @@
+{
+    "101": {
+        "id": 101,
+        "title": "Registration & morning coffee + breakfast",
+        "description": "Get your badge, coffee, enjoy socializing with your peers",
+        "image": "/images/backgrounds/morning.jpg",
+        "location": "Hall",
+        "colspan": true
+    },
+    "116": {
+        "id": 116,
+        "title": "Opening: greetings from the organizers, sponsors and partners",
+        "description": "Official start of the conference.<br>8:50 - 8:55 - Irma and Rebecca- 59doc<br>8:55 - 9:00 - Martin - Google<br>9:00 - 9:05 - Dr. Carole Goldsmith - President Fresno City College<br>9:05 - 9-10 - Rio - Fresno City College and GDG Fresno",
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
+        "colspan": true,
+        "speakers": [
+            5,
+            14
+        ]
+    },
+    "102": {
+        "id": 102,
+        "title": "Keynote: Illusion of Speed",
+        "description": "If you could take a 50% hit in real world performance and get a site that feels 50% faster, would you? Nobody cares how fast your site is. All your users care about is how fast your site feels. Going beyond the perceived perf theory, Paul is bringing a bunch of examples of things that employ clever tricks and psychology to turn things that should be slow into things that feel incredibly fast.",
+        "image": "/images/backgrounds/opening.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
+        "resources": [
+            {
+                "type": "presentation",
+                "title": "slide deck @ Frontier Spring Conference",
+                "href": "https://fronteers.nl/congres/2016-spring/sessions/the-illusion-of-speed-by-paul-bakaus"
+            },
+            {
+                "type": "video",
+                "title": "Vimeo: The Illusion of Speed",
+                "href": "https://vimeo.com/163185249"
+            },
+            {
+                "type": "video",
+                "title": "Vimeo: The Illusion Of Motion",
+                "href": "https://vimeo.com/108331968"
+            }
+        ],
+        "colspan": true,
+        "speakers": [
+            1
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Animations",
+            "Human Perception"
+        ]
+    },
+    "103": {
+        "id": 103,
+        "title": "Lunch",
+        "description": "Foooooooood!",
+        "image": "/images/backgrounds/lunch.jpg",
+        "location": "Hall",
+        "colspan": true
+    },
+    "104": {
+        "id": 104,
+        "title": "Conference closing and contest winners announcements",
+        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+        "image": "/images/backgrounds/closing.jpg",
+        "location": "Auditorium (optional overflow to Hall)",
+        "colspan": true,
+        "speakers": [
+            14
+        ]
+    },
+    "105": {
+        "id": 105,
+        "title": "Afterparty & Networking",
+        "description": "Afterparty is a great time to have some fun and meet new people",
+        "image": "/images/backgrounds/party.jpg",
+        "location": "TBD",
+        "colspan": true
+    },
+    "106": {
+        "id": 106,
+        "title": "TBD",
+        "description": "."
+    },
+    "107": {
+        "id": 107,
+        "title": "TBD",
+        "description": "."
+    },
+    "108": {
+        "id": 108,
+        "title": "TBD",
+        "description": "."
+    },
+    "109": {
+        "id": 109,
+        "title": "TBD",
+        "description": "."
+    },
+
+    "111": {
+        "id": 111,
+        "title": "Snakes on a Droid",
+        "description": "In this talk we’ll get our feet wet with developing Android apps in Python using Kivy. We’ll start with a brief intro to Python and discuss why you might want to build Android apps in Python. Then we’ll dive into Kivy by looking at examples of Kivy applications, followed by building our own \"hello world\" app. Finally, we'll compile our app into an APK and demo it in the Android emulator.",
+        "speakers": [
+            12
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Python"
+        ]
+    },
+    "112": {
+        "id": 112,
+        "title": "Android and the Seven Dwarfs",
+        "description": "Android is a great OS and it's Java based programming environment has offered an easy learning curve, great adaptation but also brought its own pitfalls and problems. The httpclient shipped with android is buggy and outdated, Java's programming model does not encourage developers to use separate threads for non-ui related tasks, use of anonymous inner classes for listeners create a burden and ugly code and of course this list goes on. This talk will focus on seven great open source libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries will be covered with example code, advantages, disadvantages, internals and when to use them.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Android",
+            "Libraries",
+            "Frameworks",
+            "Tooling"
+        ]
+    },
+    "113": {
+        "id": 113,
+        "title": "The fault in our Apps: Android Design Patterns",
+        "description": "In 1994, the famous Gang of Four, published their book \"Design Patterns: Elements of Reusable Object-Oriented Software\" and since then any developer who wants to look cool and respected is obligated to use them in their daily chats. Actually it is more than that, Design Patterns are decades of collective wisdom to provide solutions for common problems in software. Android makes heavy use of design patterns both internally and at the SDK level. This talk will focus on classical GoF design patterns and how they can be implemented on Android as well as covering patterns which are specific to Android and mobile software ecosystem.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "General",
+            "Architecture",
+            "GoF"
+        ]
+    },
+    "114": {
+        "id": 114,
+        "title": "OpenJDK for the a'N'droidlings",
+        "description": "The day has come: with version N, Android moved to OpenJDK at last from the old rusty \"Harmony\" based friend. With the move to OpenJDK aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch how the new language features and invoke dynamics will change your aNdroid world.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "OpenJDK",
+            "Byte code",
+            "InvokeDynamic"
+        ]
+    },
+    "115": {
+        "id": 115,
+        "title": "50 Shades of Android Studio",
+        "description": "After years of Eclipse experience does Android Studio inflict you pain? Don't worry! Android Studio is getting better than ever each day! Whether you are a seasoned IntelliJ developer or an Eclipse veteran, Android Studio had many hidden features and gems which can unleash your true potential. This session will cover many tips, tricks and techniques varying from shortcuts, best practices, writing gradle and intellij plugins.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Eclipse",
+            "Maven",
+            "IntelliJ",
+            "Gradle"
+        ]
+    },
+
+    "121": {
+        "id": 121,
+        "title": "Golang",
+        "description": "The credentials of the Go programming language are impressive - created at Google by luminaries in computer science: Rob Pike, Ken Thompson, and Robert Griesemer. These are the same individuals who helped create the C programming language, the Unix operating system, and the UTF-8 coding scheme. When I heard these credentials, I knew I needed to learn this language. The Go programming language, which is also known as Golang, was created to be a modern programming language that easily uses multiple cores, easily implements concurrency, easily works in distributed environments, and easily allows the programmer to write programs - it has a very lean and user-friendly syntax. In 2006, Intel released the first multiple-core CPU. In 2007, Google began developing Golang. In 2009, Google released Golang as an open source project. In March of 2012, Golang version 1 was released.  Go makes it easy to build simple, reliable, and efficient software. Go provides the ability for \"server-side\" programming. Traditional choices for server-side languages have included PHP, ASP, and JSP. Currently popular server-side programming languages include Ruby, Python, and Node.js. While there are advantages and disadvantages to all languages, no server-side language is going to be faster than \"Go.\" Couple the speed of Go with Google App Engine and Cloud Storage, and you are now using the exact same architecture as Google. This means that your web apps are going to be incredibly fast and will easily scale to millions of users. Come learn about one of the greatest languages ever created. You will leave with resources and code samples to start making all of your software and apps really go.",
+        "speakers": [
+            13
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Cloud Track",
+            "Go"
+        ]
+    },
+    "122": {
+        "id": 122,
+        "title": "App Engine",
+        "description": "Google's App engine allows you to easily build web applications running on the cloud. Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. Applications are sandboxed and run across multiple servers. App Engine offers automatic scaling for web applications — as the number of requests increases for an application, App Engine automatically allocates more resources for the web application to handle the additional demand. Google App Engine is free up to a certain level of consumed resources. Fees are charged for additional storage, bandwidth, or instance hours required by the application. It was first released as a preview version in April 2008 and came out of preview in September 2011. Come learn how to build web apps using the same infrastructure as Google!",
+        "speakers": [
+            13
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Cloud Track",
+            "App Engine",
+            "GAE",
+            "Cloud"
+        ]
+    },
+    "123": {
+        "id": 123,
+        "title": "Supercharging Firebase with Google Cloud",
+        "description": "In this talk, we take a look at how you can use Firebase to build a real time application that interacts with virtual machines, big data, machine learning APIs, and more on Google Cloud Platform. Firebase allows you to build awesome real time apps quickly and easily. Google Cloud Platform lets you build powerful services that scale. Combining these two platforms gives you the power to build amazing experiences without worrying about infrastructure and operations. Join us as we show you step by step how we built our application in just a few days. You will walk away ready to build an amazing application with Firebase and Google Cloud Platform.",
+        "speakers": [
+            4,
+            2
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Cloud Track",
+            "Firebase",
+            "Google Cloud Platform",
+            "GCP",
+            "Cloud"
+        ]
+    },
+    "124": {
+        "id": 124,
+        "title": "Magic in the Cloud with Node.js",
+        "description": "Node.js makes building web applications and APIs easy – Google App Engine makes running node.js in production fun. Walk through deploying a Hello World app, using the gcloud npm module to talk to other Google Cloud services, and using the Cloud Vision API to analyze images.",
+        "speakers": [
+            4
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Cloud Track",
+            "Cloud",
+            "Deep Learning",
+            "Big Query"
+        ]
+    },
+    "125": {
+        "id": 125,
+        "title": "Javascript + Firebase game programming... and how I became a better Dad",
+        "description": "The Firebase Database lets you synchronize data between clients in real time, which is perfect for building multi-player games. In this talk I will describe a collaborative web-based sci-fi game I built using Firebase, what I learned along the way and how it made me a better dad.",
+        "speakers": [
+            5
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Javascript",
+            "Game Development",
+            "Firebase"
+        ]
+    },
+
+    "131": {
+        "id": 131,
+        "title": "Progressive Web Apps in the Wild",
+        "description": "We'll look at the big picture related to Progressive Web Apps and take a look at a real world project. We'll see advanatges and disadvantages, and even touch technologies as NFC and Bluetooth LE.",
+        "resources": [
+            {
+                "type": "presentation",
+                "title": "slide deck @ DevFest 2016",
+                "href": "https://docs.google.com/presentation/d/1XWTYVCp0lBH7tQa6fpaoF2wCvaKV6DEArkq-FoBNjlg/edit#slide=id.p"
+            },
+            {
+                "type": "link",
+                "title": "valleydevfest.com source",
+                "href": "https://github.com/gdgfresno/valleydevfest/tree/develop"
+            },
+            {
+                "type": "link",
+                "title": "Bulldog Earth Day source",
+                "href": "https://github.com/bulldogearthday/booths"
+            }
+        ],
+        "speakers": [
+            11
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "NFC",
+            "BLE"
+        ]
+    },
+    "132": {
+        "id": 132,
+        "title": "What the Font?",
+        "description": "Integrating common Machine Learning techniques within a Progressive Web App.",
+        "speakers": [
+            10
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "Machine Learning"
+        ]
+    },
+    "133": {
+        "id": 133,
+        "title": "App Engine Flexible and Custom Runtimes",
+        "description": "Developing Multi-Tenant Applications on GCP and App Engine",
+        "speakers": [
+            9
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "PWA Track",
+            "App Engine",
+            "GAE",
+            "Compute Engine",
+            "Cloud"
+        ]
+    },
+    "134": {
+        "id": 134,
+        "title": "AMP for fun and profit",
+        "description": "A brief introduction to AMP development and debugging along with examples for implementing ads, analytics, and social media features in AMP.",
+        "speakers": [
+            15
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "AMP"
+        ]
+    },
+    "135": {
+        "id": 135,
+        "title": "The Future of Web Layout: The CSS Grid",
+        "description": "Layout for the web has been an ever evolving process of hackery. Frames, tables, floats and positioning are all victims of abuse by developers, none of which ever really provided the control that was needed for the complex web. The closest solution in recent years has been the adoption of Flexbox to the CSS spec, but even that is being forced to do layout that it’s not intended for. Enter the Grid. The first true solution that has been specifically designed making even the most complex layout possible.",
+        "speakers": [
+            16
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "Web",
+            "CSS",
+            "UX"
+        ]
+    },
+    "136": {
+        "id": 136,
+        "title": "DevTools: The Beginning",
+        "description": "DevTools is no longer an optional tool in the web developers belt. In this talk, James explores getting started with DevTools to make you web development day just a little more enchanted.",
+        "speakers": [
+            8
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "Chrome Dev Tools",
+            "Web"
+        ]
+    },
+
+    "141": {
+        "id": 141,
+        "title": "From AMP to PWA",
+        "description": "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture. AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how.",
+        "speakers": [
+            1
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "AMP PWA Track",
+            "AMP",
+            "Web",
+            "Progressive Web Apps"
+        ]
+    },
+    "142": {
+        "id": 142,
+        "title": "The Wonder Web",
+        "description": "Optimizing the Web for Super Performance.",
+        "speakers": [
+            3
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "Web",
+            "UX"
+        ]
+    },
+    "143": {
+        "id": 143,
+        "title": "Polymer and Web Components NOW",
+        "description": "You've lost track of the star date and you've started to question exactly which timeline you're on. \"Polymer, Web Components...I've built them, lots of people have...but where is the meaning?\" In this talk, Justin explores the current state of Polymer, the standards, how you might consider using them and what is in store to get you back out into the final progressive frontier of web development.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Polymer",
+            "Web Components"
+        ]
+    },
+    "144": {
+        "id": 144,
+        "title": "Progressive Web Apps to Production",
+        "description": "Building a progressive web app from scratch is amazing. But what happens when you already have an web application in production now? In this talk, we explore the approaches and cases for getting progressive web app features integrated into your new and existing production environments.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "PWA"
+        ]
+    },
+    "145": {
+        "id": 145,
+        "title": "PWAs, Physical Web, and things in your house",
+        "description": "In a time where your house is connected, its also massively harder to connect to things. In this talk, we explore a future demo of just what the Physical Web and Progressive Webs Apps can be used for to super-charge your Internet of Things experience.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "PWA Track",
+            "Progressive Web Apps",
+            "IoT"
+        ]
+    },
+    "146": {
+        "id": 146,
+        "title": "Integrating and Delivering AMP",
+        "description": "In this talk, we explore the approaches and cases for getting AMP features integrated into your new and existing production environments.",
+        "speakers": [
+            7
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "AMP PWA Track",
+            "AMP"
+        ]
+    },
+
+    "150": {
+        "id": 150,
+        "title": "Interactive Map Code Lab With Free Code Camp",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. The whole material will propably take multiple session to finish. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+    "151": {
+        "id": 151,
+        "title": "Interactive Map Code Lab With Free Code Camp",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. The whole material will propably take multiple session to finish. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+    "152": {
+        "id": 152,
+        "title": "Interactive Map Code Lab With Free Code Camp",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. The whole material will propably take multiple session to finish. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+    "153": {
+        "id": 153,
+        "title": "Interactive Map Code Lab With Free Code Camp",
+        "description": "Interactive Google Maps code labs facilitated by Free Code Camp advocates. The whole material will propably take multiple session to finish. Bring your own laptop. Space is limited, first come first served basis.",
+        "speakers": [
+            17
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Code Labs",
+            "Maps",
+            "Cloud",
+            "Web"
+        ]
+    },
+
+    "160": {
+        "id": 160,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "161": {
+        "id": 161,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "162": {
+        "id": 162,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "163": {
+        "id": 163,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+    "164": {
+        "id": 164,
+        "title": "Build and Battle",
+        "description": "You will build a functioning Sumobot with an Arduino, ultrasonic sensor, and motors. Additional pre-regsitration required.",
+        "speakers": [
+            19,
+            20
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Robotics",
+            "Arduino",
+            "Maker Space",
+            "Hacker Space"
+        ]
+    },
+
+    "404": {
+        "id": 404,
+        "title": "Not available",
+        "description": ""
+    }
+
+}
