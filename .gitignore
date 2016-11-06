@@ -53,5 +53,5 @@ ratings.json
 # result data
 result.json
 stats.json
-uuid-*.json
+uuid-*.jsonp
 links.json

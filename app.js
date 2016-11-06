@@ -64,13 +64,13 @@ app.get('/process', function(req, res) {
       if (values && values.length > 0) {
         values.sort();
         var valLen = values.length;
-        var medianIndex = valLen % 2 == 0 ? valLen / 2 : (valLen - 1) / 2;
+        var medianIndex = valLen % 2 == 0 ? valLen / 2 - 1 : (valLen - 1) / 2;
         var sum = values.reduce(function(a, b) {return a + b});
         aggr.rating[cat]['median'] = values[medianIndex];
         aggr.rating[cat]['avg'] = sum / valLen;
       }
     });
-    fs.writeFile('uuid-' + guid + '.json', JSON.stringify(aggr, null, 2));
+    fs.writeFile('uuid-' + guid + '.jsonp', JSON.stringify(aggr, null, 2));
     // Add to the speaker links
     if (!session.speakers || session.speakers.length <= 0) {
       session.speakers = [14];  // Rio is also for Generic Sessions
