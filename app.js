@@ -8,6 +8,9 @@
 // for more info, see: http://expressjs.com
 var express = require('express');
 
+// For GUID generation
+var uuid = require('node-uuid');
+
 // create a new express server
 var app = express();
 
@@ -47,15 +50,15 @@ app.get('/process', function(req, res) {
   var sessionsJson = JSON.parse(sessionsText);
   var speakersJson = JSON.parse(speakersText);
 
-  var linkStub = 'https://gdgfresno.github.io/vdf2016r/uuid=?' 
+  var linkStub = 'https://gdgfresno.github.io/vdf2016r/?uuid=' 
   var links = {};
   var categories = ['content', 'presentation', 'venue'];
   Object.keys(aggregated).forEach(function(agg) {
-    var uuid = new Date.now().getTime().toString(16) + Math.floor(1E7 * Math.random()).toString(16);
+    var guid = uuid.v4().replace(/-/g, '');
     var aggr = aggregated[agg];
     var session = sessionsJson[agg]; 
-    aggr.title = sessions.title;
-    aggr.uuid = uuid;
+    aggr.title = session.title;
+    aggr.uuid = guid;
     categories.forEach(function(cat) {
       var values = aggr.rating[cat].values;
       if (values && values.length > 0) {
@@ -67,21 +70,21 @@ app.get('/process', function(req, res) {
         aggr.rating[cat]['avg'] = sum / valLen;
       }
     });
-    fs.writeFile('uuid-' + uuid + '.json', JSON.stringify(aggr, null, 2));
+    fs.writeFile('uuid-' + guid + '.json', JSON.stringify(aggr, null, 2));
     // Add to the speaker links
     if (!session.speakers || session.speakers.length <= 0) {
-      session.speakers = [0];
+      session.speakers = [14];  // Rio is also for Generic Sessions
     }
     session.speakers.forEach(function(speakerId) {
       var speakerIdStr = speakerId.toString();
-      var speaker = speakersJson[speakerIdStr]; // Added 0 as "Generic" into speakers.json
+      var speaker = speakersJson[speakerIdStr];
       if (Object.keys(links).indexOf(speakerIdStr) < 0) {
         links[speakerIdStr] = {
           name: speaker.name,
           links: []
         };
       }
-      links[speakerIdStr].links.push(linkStub + uuid);
+      links[speakerIdStr].links.push(linkStub + guid);
     });
   });
 

@@ -6,7 +6,8 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "4.13.x"
+    "express": "4.13.x",
+    "node-uuid": "^1.4.7"
   },
   "repository": {},
   "engines": {
