@@ -50,7 +50,7 @@ app.get('/process', function(req, res) {
   var sessionsJson = JSON.parse(sessionsText);
   var speakersJson = JSON.parse(speakersText);
 
-  var linkStub = 'https://atoth.sote.hu/~tocsa/vdf2016r/?uuid=' 
+  var linkStub = 'http://atoth.sote.hu/~tocsa/vdf2016r/?uuid=' 
   var links = {};
   var categories = ['content', 'presentation', 'venue'];
   Object.keys(aggregated).forEach(function(agg) {
