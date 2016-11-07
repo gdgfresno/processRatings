@@ -53,10 +53,21 @@ app.get('/process', function(req, res) {
   var linkStub = 'http://atoth.sote.hu/~tocsa/vdf2016r/?uuid=' 
   var links = {};
   var categories = ['content', 'presentation', 'venue'];
+  var avgs = {};
+  var medians = {};
+  categories.forEach(function(cat) {
+    avgs[cat] = {};
+    avgs[cat].values = [];
+    medians[cat] = {};
+    medians[cat].values = [];
+  });
   Object.keys(aggregated).forEach(function(agg) {
     var guid = uuid.v4().replace(/-/g, '');
     var aggr = aggregated[agg];
     var session = sessionsJson[agg]; 
+    if (!session.speakers || session.speakers.length <= 0) {
+      session.speakers = [14];  // Rio is also for Generic Sessions
+    }
     aggr.title = session.title;
     aggr.uuid = guid;
     categories.forEach(function(cat) {
@@ -66,15 +77,17 @@ app.get('/process', function(req, res) {
         var valLen = values.length;
         var medianIndex = valLen % 2 == 0 ? valLen / 2 - 1 : (valLen - 1) / 2;
         var sum = values.reduce(function(a, b) {return a + b});
-        aggr.rating[cat]['median'] = values[medianIndex];
-        aggr.rating[cat]['avg'] = sum / valLen;
+        var median = values[medianIndex];
+        aggr.rating[cat]['median'] = median;
+        var avg = sum / valLen;
+        aggr.rating[cat]['avg'] = avg;
+        if (session.speakers.length > 1 || session.speakers[0] != 14) { // Don't count in general sessions
+          medians[cat].values.push(median);
+          avgs[cat].values.push(avg);
+        }
       }
     });
-    fs.writeFile('uuid-' + guid + '.jsonp', JSON.stringify(aggr, null, 2));
     // Add to the speaker links
-    if (!session.speakers || session.speakers.length <= 0) {
-      session.speakers = [14];  // Rio is also for Generic Sessions
-    }
     session.speakers.forEach(function(speakerId) {
       var speakerIdStr = speakerId.toString();
       var speaker = speakersJson[speakerIdStr];
@@ -86,6 +99,21 @@ app.get('/process', function(req, res) {
       }
       links[speakerIdStr].links.push(linkStub + guid);
     });
+  });
+
+  categories.forEach(function(cat) {
+    var sum = avgs[cat].values.reduce(function(a, b) {return a + b});
+    avgs[cat].value = sum / avgs[cat].values.length;
+    sum = medians[cat].values.reduce(function(a, b) {return a + b});
+    medians[cat].value = sum / medians[cat].values.length;
+  });
+  Object.keys(aggregated).forEach(function(agg) {
+    var aggr = aggregated[agg];
+    categories.forEach(function(cat) {
+      aggr.rating[cat]['conferenceMedian'] = medians[cat].value;
+      aggr.rating[cat]['conferenceAvg'] = avgs[cat].value;
+    });
+    fs.writeFile('uuid-' + aggr.uuid + '.jsonp', JSON.stringify(aggr, null, 2));
   });
 
   fs.writeFile('links.json', JSON.stringify(links, null, 2), function (err) {
