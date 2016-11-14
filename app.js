@@ -30,7 +30,8 @@ app.get('/process', function(req, res) {
   var categoryNames = ['content', 'presentation', 'venue'];
   var categoryAggregate = {};
   var aggregateOutput = {
-    categoryNames: categoryNames
+    categoryNames: categoryNames,
+    ratingTitle: ['Very dissatisfied', 'Dissatisfied', 'Neutral', 'Satisfied', 'Very satisfied']
   };
   categoryNames.forEach(function(cat) {
     categoryAggregate[cat] = {
@@ -96,6 +97,7 @@ app.get('/process', function(req, res) {
         sessionAggregate.rating[cat]['median'] = median;
         var avg = sum / valLen;
         sessionAggregate.rating[cat]['avg'] = avg;
+        sessionAggregate.rating[cat].values = valLen;
         if (session.speakers.length > 1 || session.speakers[0] != 14) {  // Don't count in general sessions
           categoryAggregate[cat].medians.push(median);
           categoryAggregate[cat].avgs.push(avg);
