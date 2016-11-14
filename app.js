@@ -29,7 +29,9 @@ app.get('/process', function(req, res) {
   var speakersJson = JSON.parse(speakersText);
   var categoryNames = ['content', 'presentation', 'venue'];
   var categoryAggregate = {};
-  var aggregateOutput = {};
+  var aggregateOutput = {
+    categoryNames: categoryNames
+  };
   categoryNames.forEach(function(cat) {
     categoryAggregate[cat] = {
       values: [],
@@ -126,7 +128,7 @@ app.get('/process', function(req, res) {
     aggregateOutput[cat].nmedian = medians.length;
     aggregateOutput[cat].median = sum / aggregateOutput[cat].nmedian;
   });
-  fs.writeFile('global.jsonp', "aggregate=" + JSON.stringify(aggregateOutput, null, 2));
+  fs.writeFile('global.jsonp', "aggregateData=" + JSON.stringify(aggregateOutput, null, 2));
 
   // Object.keys(aggregatedSessionData).forEach(function(key) {
   //   var sessionAggregate = aggregatedSessionData[key];
