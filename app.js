@@ -31,7 +31,7 @@ app.get('/process', function(req, res) {
   var categoryAggregate = {};
   var aggregateOutput = {
     categoryNames: categoryNames,
-    ratingTitle: ['Very dissatisfied', 'Dissatisfied', 'Neutral', 'Satisfied', 'Very satisfied']
+    ratingTitles: ['Very dissatisfied', 'Dissatisfied', 'Neutral', 'Satisfied', 'Very satisfied']
   };
   categoryNames.forEach(function(cat) {
     categoryAggregate[cat] = {

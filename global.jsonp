@@ -4,6 +4,13 @@ aggregateData={
     "presentation",
     "venue"
   ],
+  "ratingTitles": [
+    "Very dissatisfied",
+    "Dissatisfied",
+    "Neutral",
+    "Satisfied",
+    "Very satisfied"
+  ],
   "content": {
     "avg": 4.545168054168054,
     "median": 4.6,
