@@ -1,4 +1,9 @@
-aggregate={
+aggregateData={
+  "categoryNames": [
+    "content",
+    "presentation",
+    "venue"
+  ],
   "content": {
     "avg": 4.545168054168054,
     "median": 4.6,
