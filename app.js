@@ -78,7 +78,7 @@ app.get('/process', function(req, res) {
     }
   });
 
-  var linkStub = 'http://atoth.sote.hu/~tocsa/vdf2016r/?uuid=' 
+  var linkStub = 'https://vdf2016r.firebaseapp.com/?uuid=' 
   var links = {};
   Object.keys(aggregatedSessionData).forEach(function(key) {
     var guid = uuid.v4().replace(/-/g, '');
