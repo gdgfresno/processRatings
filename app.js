@@ -29,6 +29,7 @@ app.get('/process', function(req, res) {
   var speakersJson = JSON.parse(speakersText);
   var categoryNames = ['content', 'presentation', 'venue'];
   var categoryAggregate = {};
+  var whole = [];
   var aggregateOutput = {
     categoryNames: categoryNames,
     ratingTitles: ['Very dissatisfied', 'Dissatisfied', 'Neutral', 'Satisfied', 'Very satisfied']
@@ -118,6 +119,21 @@ app.get('/process', function(req, res) {
       }
       links[speakerIdStr].links.push(linkStub + guid);
     });
+
+    var truncationLength = 40;
+    var truncatedSessionTitle = session.title.substr(0, truncationLength - 1) + (session.title.length > truncationLength ? '…' : '');
+    var sessionEntry = {
+      name: truncatedSessionTitle
+    };
+    categoryNames.forEach(function(cat) {
+      var sessionRatingCat = sessionAggregate.rating[cat];
+      sessionEntry[cat] = {
+        avg: sessionRatingCat['avg'],
+        median: sessionRatingCat['median'],
+        sampleSize: sessionRatingCat['values']
+      };
+    });
+    whole.push(sessionEntry);
   });
 
   categoryNames.forEach(function(cat) {
@@ -131,6 +147,7 @@ app.get('/process', function(req, res) {
     aggregateOutput[cat].median = sum / aggregateOutput[cat].nmedian;
   });
   fs.writeFile('global.jsonp', "aggregateData=" + JSON.stringify(aggregateOutput, null, 2));
+  fs.writeFile('whole.jsonp', "whole=" + JSON.stringify(whole, null, 2));
 
   // Object.keys(aggregatedSessionData).forEach(function(key) {
   //   var sessionAggregate = aggregatedSessionData[key];
