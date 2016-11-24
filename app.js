@@ -108,6 +108,7 @@ app.get('/process', function(req, res) {
     fs.writeFile('uuid-' + sessionAggregate.uuid + '.jsonp', JSON.stringify(sessionAggregate, null, 2));
     
     // Add to the speaker links
+    var speakersStr = '';
     session.speakers.forEach(function(speakerId) {
       var speakerIdStr = speakerId.toString();
       var speaker = speakersJson[speakerIdStr];
@@ -118,12 +119,15 @@ app.get('/process', function(req, res) {
         };
       }
       links[speakerIdStr].links.push(linkStub + guid);
+
+      if (speakersStr)
+        speakersStr += ', ';
+      speakersStr += speaker.name;
     });
 
-    var truncationLength = 40;
-    var truncatedSessionTitle = session.title.substr(0, truncationLength - 1) + (session.title.length > truncationLength ? '…' : '');
     var sessionEntry = {
-      name: truncatedSessionTitle
+      name: session.title,
+      speakers: speakersStr
     };
     categoryNames.forEach(function(cat) {
       var sessionRatingCat = sessionAggregate.rating[cat];
