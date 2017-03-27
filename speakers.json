@@ -1,634 +1,430 @@
 {
+    "2": {
+        "id": 2,
+        "featured": true,
+        "name": "Aileen Rizo",
+        "title": "Research Associate in Mathematics Education",
+        "company": "AIMS Center for Math and Science",
+        "companyLogo": "/images/logos/aim.png",
+        "country": "",
+        "photoUrl": "/images/people/aileen.jpg",
+        "shortBio": "Aileen Rizo is a Research Associate for the AIMS Center. She has worked in math education for 20+ years in roles such as...",
+        "bio": "Aileen Rizo is a Research Associate for the AIMS Center. She has worked in math education for 20+ years in roles such as – classroom teacher, curriculum designer, educational consultant, and adjunct faculty. She has also served in state capacities with the California Department of Education as a Math Reviewer and is currently a Network Educator for the Smarter Balanced Digital Library. Aileen earned a Masters in Educational Technology from Northern Arizona University and her second Masters in Mathematics Education from Fresno Pacific University. She is an advocate for the equity of women and girls for which she was awarded a Trailblazer:Catalysts for Change by local/state government representatives. Aileen’s passion in STEM fields fueled her to realize the importance of providing children with powerful educational experiences. Her own children inspire her current work with the early math team in an effort to bring equitable math experiences to young children.",
+        "tags": [
+            "STEM",
+            "Education"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/STEMactivitiesforkids/"
+            },
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/witeroez"
+            },
+            {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/aileen-rizo-acosta-4ba07656?trk=hp-identity-name"
+            }
+        ]
+    },
     "1": {
         "id": 1,
         "featured": true,
-        "name": "Paul Bakaus",
-        "title": "Googler, AMP expert",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
+        "name": "Saori Ichikawa-Jansen",
+        "title": "Data Analyst",
+        "company": "Fresno Unified School District",
+        "companyLogo": "/images/logos/fusd.png",
         "country": "",
-        "photoUrl": "/images/people/paul_bakaus.jpg",
-        "shortBio": "Paul is a Web Developer Advocate at Google, and spends most of his time making the web fast and user friendly, currently by supporting the Accelerated Mobile Pages project.",
-        "bio": "Paul worked at Zynga before Google and his widest known creations are jQuery UI and Aves Engine. Currently he is workign on the Accelerated Mobile Pages project.",
+        "photoUrl": "/images/people/sjansen.jpg",
+        "shortBio": "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz",
+        "bio": "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school coding club for girls. She works in the district's IT department, organizes the annual Tournament of Technology and is deeply invested in addressing the underrepresentation of women and minorities in STEM fields. Saori earned a Masters in Mathematics from California State University, Fresno and teaches part-time at local community colleges.",
         "tags": [
-            "Animations",
-            "Human perception",
-            "AMP",
-            "Chrome Dev Tools",
-            "PWA"
+            "IT",
+            "CoderGilz",
+            "STEM"
         ],
         "badges": [
+
         ],
         "socials": [
-          {
-            "icon": "gplus",
-            "link": "//plus.google.com/106129485759840435120",
-            "name": "Google+"
-          },
-          {
-            "icon": "website",
-            "link": "//paulbakaus.com/",
-            "name": "Blog"
-          },
-          {
-            "icon": "github",
-            "link": "//github.com/pbakaus",
-            "name": "Github"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/pbakaus",
-            "name": "Twitter"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/paulbakaus",
-            "name": "Linkedin"
-          }
-        ]
-    },
-    "2": {
-        "id": 2,
-        "featured": false,
-        "name": "Sherol Chen",
-        "title": "Developer Advocate",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
-        "country": "",
-        "photoUrl": "/images/people/sherol_chen.jpg",
-        "shortBio": "Sherol works with games product groups and Machine Learning tools at Google as a Developer Advocate.",
-        "bio": "Besides being a developer advocate at Google she is also a pre-collegiate instructor for Stanford University. She's taught at Stanford and around the world in five different countries. Her PhD work is in Computer Science, researching storytelling and Artificial Intelligence. ",
-        "tags": [
-            "Cloud",
-            "Machine Learning"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "website",
-            "link": "//sherol.github.io",
-            "name": "Blog"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/ffpaladin",
-            "name": "Twitter"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/ffpaladin/de",
-            "name": "Linkedin"
-          }
+
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/FUSDCoderGirlz"
+            },
+            {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/saori-jansen-54790755"
+            }
         ]
     },
     "3": {
         "id": 3,
         "featured": true,
-        "name": "Laura Krake",
-        "title": "Illustrator and Graphic Designer",
-        "company": "Stickman Ventures",
-        "companyLogo": "/images/logos/stickman_ventures.png",
+        "name": "Laura Huisinga",
+        "title": "Assistant Professor",
+        "company": "Fresno State",
+        "companyLogo": "/images/logos/fresnostatelogo.png",
         "country": "",
-        "photoUrl": "/images/people/laura_krake.jpg",
-        "shortBio": "Graphic Designer and Illustrator determined to enhance UI/UX.",
-        "bio": "Laura graduated from the University of St. Thomas, MN with a B.A. in Spanish Linguists and a B.A. in Psychology. She applies her knowledge of human behavior and culture to technically architect everything from complex illustrations to minimalist vectors. Her favorite pastimes include painting digitally, playing Ultimate Frisbee, and ballroom dancing.",
+        "photoUrl": "/images/people/laura.jpg",
+        "shortBio": "Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA..",
+        "bio": "Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and is interested in how augmented reality could be used in education. Laura has her MFA in graphic design from Iowa State University and has worked as a front-end-developer in Des Moines, Iowa. She is currently finishing her PhD at Iowa State University in Human Computer Interaction and loves teaching at Fresno State.",
         "tags": [
-            "UX",
-            "Web"
+            "Designer",
+            "UX/UX",
+            "Front-End"
         ],
         "badges": [
+
         ],
         "socials": [
             {
-                "icon": "linkedin",
-                "name": "LinkedIn",
-                "link": "//www.linkedin.com/in/laura-krake-b7636199"
+              "icon": "website",
+              "name": "Website",
+              "link": "http://laurahuisinga-design.com"
             },
             {
                 "icon": "twitter",
-                "link": "//twitter.com/LauraKrake",
-                "name": "Twitter"
+                "name": "Twitter",
+                "link": "http://twitter.com/huisinga_design"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "http://www.linkedin.com/pub/laura-huisinga-64173418"
             }
         ]
     },
     "4": {
         "id": 4,
         "featured": true,
-        "name": "Sandeep Dinesh",
-        "title": "Developer Advocate",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
+        "name": "Monisha Edwards",
+        "title": "Founder and Director of Brand Development",
+        "company": "Truth Branding Agency",
+        "companyLogo": "/images/logos/truthlogo.jpg",
         "country": "",
-        "photoUrl": "/images/people/sandeep_dinesh.jpg",
-        "shortBio": "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
-        "bio": "Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games. At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.",
+        "photoUrl": "/images/people/monisha.jpg",
+        "shortBio": "Monisha Edwards is a talented individual with a professional background in Marketing and Brand Development....",
+        "bio": "Monisha Edwards is a talented individual with a professional background in Marketing and Brand Development. She started her first company at the tender age of 19, and is now the Founder and Director of Brand Development for Truth Branding Agency. Monisha is an active servant of the community, especially Downtown Fresno, and is an alumna of F.L.Y.P. (Fresno’s Leading Young Professionals) Downtown Academy Class of 2016.",
         "tags": [
-            "Cloud",
-            "Compute Engine",
-            "Firebase",
-            "Deep Learning",
-            "Kubernetes",
-            "IoT"
+            "UX/UI",
+            "Marketing"
         ],
         "badges": [
+
         ],
         "socials": [
             {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "//plus.google.com/u/0/106298452631478443711/posts"
+              "icon": "website",
+              "name": "Website",
+              "link": "http://Monishaedwards.com/portfolio"
+            },
+            {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/iammonishaedwards/"
+            },
+            {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "http://twitter.com/monishaedwards"
+            },
+            {
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "http://www.linkedin.com/in/monishaedwards"
             }
         ]
     },
     "5": {
         "id": 5,
-        "featured": false,
-        "name": "Martin Omander",
-        "title": "Program Manager for Google Developer Relations",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
-        "country": "",
-        "photoUrl": "/images/people/martin_omander.jpg",
-        "shortBio": "Martin helps a lot for GDGs in North America and all around the world. He is a great coder and father too.",
-        "bio": "Alignment: Lawful Good",
-        "tags": [
-            "General",
-            "Community",
-            "GDGs",
-            "Firebase"
-        ],
-        "badges": [
-        ],
-        "socials": [
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "//plus.google.com/+MartinOmander"
-            }
-        ]
-    },
-    "6": {
-        "id": 6,
         "featured": true,
-        "name": "Murat Yener",
-        "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
-        "company": "Intel Corporation",
-        "companyLogo": "/images/logos/Intel-logo.svg",
+        "name": "Rusty Robison",
+        "title": "Professor",
+        "company": "Fresno State",
+        "companyLogo": "/images/logos/fresnostatelogo.png",
         "country": "",
-        "photoUrl": "/images/people/murat_yener.jpg",
-        "shortBio": "A code geek, open source committer, conference speaker and Android Software Developer at Intel.",
-        "bio": "Experienced in developing Mobile (native/html5), Java, Web, Flex, GWT, JavaEE and OSGi applications besides teaching courses and mentoring. Eclipse committer in Eclipse Libra project. GDG Istanbul organizer since 2009 and a Conference Speaker.",
+        "photoUrl": "/images/people/rusty.jpg",
+        "shortBio": "Rusty Robison is a scientist trapped inside an artist's mind. She's terrible at math, but loves programming...",
+        "bio": "Rusty Robison is a scientist trapped inside an artist's mind. She's terrible at math, but loves programming. She is a professor of Interactive/Multimedia Design at Fresno State and a mother of a two-year-old boy. She holds a BA in Creative Writing from Sarah Lawrence College and an MFA in Design and Technology from Parsons School of Design. Currently, she is obsessed with virtual and augmented reality.",
         "tags": [
-            "Android",
-            "IoT",
-            "Wearables"
+            "Education",
+            "Design",
+            "UX/UI"
         ],
         "badges": [
-            {
-                "name": "Android GDE",
-                "description": "Android Google Developer Expert",
-                "link": "//developers.google.com/experts/people/murat-yener.html"
-            },
-            {
-                "name": "Java Champion",
-                "description": "Highest Honor in the Java Developer Realm",
-                "link": "//blogs.oracle.com/java/new-java-champion:-murat-yener"
-            }
+
         ],
         "socials": [
-          {
-            "icon": "gplus",
-            "link": "//plus.google.com/114028338330916709688",
-            "name": "Google+"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/yenerm",
-            "name": "Twitter"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/muratyener",
-            "name": "Linkedin"
-          },
-          {
-            "icon": "website",
-            "link": "//muratyener.com/",
-            "name": "Blog"
-          }
+
         ]
     },
     "7": {
         "id": 7,
         "featured": true,
-        "name": "Justin Ribeiro",
-        "title": "GDE and GDG Mentor in North America Pacific Region",
-        "company": "Stickman Ventures, Inc.",
-        "companyLogo": "/images/logos/GDG_Oakdale.svg",
+        "name": "Siamak \"Ash\" Ashrafi",
+        "title": "Fashionable Health Tech",
+        "company": "ZoeWave",
+        "companyLogo": "",
         "country": "",
-        "photoUrl": "/images/people/justin_ribeiro.jpg",
-        "shortBio": "Build and hack on just about anything",
-        "bio": "Co-organizer of the GDG Oakdale, a GDE, Oakdale OpenMesh, and his three daughters. 18+ years development experience and author of the upcoming book 'Developing a Google Glass Edge', he is constantly building software, sensors, and hacking on toys.",
+        "photoUrl": "/images/people/siamak.jpg",
+        "shortBio": "Ash - CTO @ ZoeWave building physiologically intelligent clothing called ZoeWear...",
+        "bio": "Ash - CTO @ ZoeWave building physiologically intelligent clothing called ZoeWear.  Combining biotech, mobile and fashion to build clothing that keeps people healthy while looking great Zoe(\"life\")Wear \"wearable for life\" is built on his experience in all three fields",
         "tags": [
-            "Web",
-            "IoT",
-            "Wearables",
-            "Firebase"
+            "Wearable",
+            "Fashsion",
+            "Mobile Development"
         ],
         "badges": [
-            {
-                "name": "GDE, Coder and presenter",
-                "description": "Wearables, IoT Google Developer Expert",
-                "link": "//developers.google.com/experts/people/justin-ribeiro.html"
-            }
+
         ],
         "socials": [
-          {
-            "icon": "github",
-            "link": "//github.com/justinribeiro",
-            "name": "Github"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/justinribeiro",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "//www.justinribeiro.com/",
-            "name": "Blog"
-          },
-          {
-            "icon": "gplus",
-            "link": "//google.com/+justinribeiro",
-            "name": "Google+"
-          }
+
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": true,
+        "name": "Shel Moore",
+        "title": "Digital Marketer & Entrepreneur",
+        "company": "Moore Than SEO",
+        "companyLogo": "/images/logos/moore.png",
+        "country": "",
+        "photoUrl": "/images/people/shel.jpg",
+        "shortBio": "Creative, ingenious tech marketer, writer, & artist who’s passionate about integrity, family, & love...",
+        "bio": "Creative, ingenious tech marketer, writer, & artist who’s passionate about integrity, family, & love. Co-founder and Chief Marketing Officer of Moore Than SEO, Shel Moore, is a digital marketing veteran with over 20 years experience. Shel is also Mom to an amazing son, who happens to be on the Autism spectrum. She enjoys sharing her journey to uplift and help families & others of all ages also working to improve and enrich the lives of loved ones living with Autism.",
+        "tags": [
+            "Tech Marketer",
+            "Writer"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/shelmoore"
+            },
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/MooreThanSEO"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/shelabella"
+            },
+            {
+                "icon": "website",
+                "name": "Website",
+                "link": "http://www.moorethanseo.com"
+            }
         ]
     },
     "8": {
         "id": 8,
-        "featured": false,
-        "name": "James Duvall IV",
-        "title": "Software Engineer, Speaker, GDG co-organizer",
-        "company": "Direct Technology",
-        "companyLogo": "/images/logos/GDG_Oakdale.svg",
+        "featured": true,
+        "name": "Kelly Lamb",
+        "title": "CEO of Tech Company - Helpfulist",
+        "company": "Helpfulist",
+        "companyLogo": "",
         "country": "",
-        "photoUrl": "/images/people/james_duvall.jpg",
-        "shortBio": "Software Engineer, speaker, GDG Oakdale and Oakdale OpenMesh organizer",
-        "bio": "A software engineer and co-organizer of the GDG Oakdale, Oakdale OpenMesh and his three daughters. With 10+ years of development experience, he works daily in .Net technologies, C#, and Chrome, building web applications that push the web to its limits.",
+        "photoUrl": "/images/people/kelly.jpg",
+        "shortBio": "Kelly Lamb is the Founder and CEO of Helpfulist. She began her passion... ",
+        "bio": "Kelly Lamb is the Founder and CEO of Helpfulist. She began her passion as an entrepreneur began in high school when working with start-up companies creating and executing long-term strategic/business plans for them.  She has worked in the fields of Business Strategy, Marketing Management, Promotions, and Advertising for over 9 years. At the age of 17, Kelly was the youngest Marketing Manager in Central California for an industry-leading tax company . Kelly is recognized for her innovative and unorthodox marketing & strategic planning methods. Along with being the CEO of Helpfulist, Kelly stays active in the community mentoring teenagers in leadership and building their own future businesses. ",
         "tags": [
-            "Web",
-            "IoT",
-            "Chrome"
+            "Entrepreneur"
         ],
         "badges": [
+
         ],
         "socials": [
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/jamesduvall",
-            "name": "Twitter"
-          },
-          {
-            "icon": "gplus",
-            "link": "//google.com/+JamesDuvallIV",
-            "name": "Google+"
-          }
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "https://plus.google.com/+CsabaTothMr"
+            },
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/tocsa2"
+            },
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/csabatothdev"
+            }
         ]
     },
     "9": {
         "id": 9,
-        "featured": false,
-        "name": "Walter Kuppens",
-        "title": "Software Engineer experienced in cloud technologies.",
-        "company": "Stickman Ventures, Inc.",
-        "companyLogo": "/images/logos/stickman_ventures.png",
-        "country": "",
-        "photoUrl": "/images/people/walter_kuppens.jpg",
-        "shortBio": "Passionate Software developer, wants to know why things work.",
-        "bio": "Walter is a software developer with an interest in web development and some more esoteric things like emulator development. He has worked with many technology stacks such as Go, Python, Rust, AWS, and GCP to build scalable applications for the modern web.",
-        "tags": [
-            "Compute Engine",
-            "App Engine"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "website",
-            "link": "//walterkuppens.com/",
-            "name": "blog"
-          }
-        ]
-    },
-    "10": {
-        "id": 10,
-        "featured": false,
-        "name": "Paul Perrone",
-        "title": "Software Enginner and graduate student",
-        "company": "Stickman Ventures, Inc.",
-        "companyLogo": "/images/logos/stickman_ventures.png",
-        "country": "",
-        "photoUrl": "/images/people/paul_perrone.jpg",
-        "shortBio": "Data Analyst Enraptured with Machine Learning, Literature, and Video Games",
-        "bio": "Paul is a graduate of Claremont McKenna College with a bachelor's degree in Economics. He has worked with numerous APIs including the Riot Games API, the Twitter API, the Twitch API, and numerous Google Analytics stacks. Paul enjoys spending his free time studying Machine Learning, Literature, and Video Games.",
-        "tags": [
-            "Progressive Web Apps",
-            "Machine Learning"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/paulbperrone",
-            "name": "Linkedin"
-          }
-        ]
-    },
-    "11": {
-        "id": 11,
-        "featured": false,
+        "featured": true,
         "name": "Csaba Toth",
         "title": "Universal software engineer (can tackle any problem), Speaker, User Group junkie",
         "company": "WestShore Technologies Inc., Csaba Technology Services, LLC",
-        "companyLogo": "/images/logos/GDG_Fresno.svg",
+        "companyLogo": "/images/logos/gdgfresno.png",
         "country": "",
-        "photoUrl": "/images/people/csaba_toth.jpg",
-        "shortBio": "All-round software engineer (can tackle any problem), speaker, organizer",
+        "photoUrl": "/images/people/csaba.jpg",
+        "shortBio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer... ",
         "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
         "tags": [
-            "Progressive Web Apps",
-            "Compute Engine",
-            "Android"
+        "Cloud",
+        "Android",
+        "Progressive Web Apps"
         ],
         "badges": [
+
         ],
         "socials": [
-          {
-            "icon": "github",
-            "link": "//github.com/MrCsabaToth",
-            "name": "Github"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/tocsa2",
-            "name": "Twitter"
-          },
-          {
+        {
             "icon": "gplus",
-            "link": "//google.com/CsabaTothMr",
-            "name": "Google+"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/csabatothdev",
-            "name": "Linkedin"
-          }
-        ]
-    },
-    "12": {
-        "id": 12,
-        "featured": false,
-        "name": "Derek Payton",
-        "title": "Software Developer and CTO",
-        "company": "Edit, LLC",
-        "companyLogo": "/images/logos/edit_llc.png",
-        "country": "",
-        "photoUrl": "/images/people/derek_payton.jpg",
-        "shortBio": "Derek is a software developer, Open Source contributor, community organizer, and shameless Python fanboy.",
-        "bio": "Derek built his first web page when he was 11 years old. The web has come a long way since 1998, and so has he. He first picked up Python in 2007 and hasn’t put it down since. He’s built dozens of websites and applications with Django, including sites for companies like DC Shoes, Sony, and Alpinestars. He’s built exactly one Android app before and would love to build more, except for that whole Java thing. He’s currently a Software Developer and CTO at Edit, LLC in Fresno, and organizes Fresno Python and Fresno Hack Night.",
-        "tags": [
-            "Python",
-            "Android",
-            "Community"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "github",
-            "link": "//github.com/dmpayton",
-            "name": "Github"
-          },
-          {
+            "name": "Google+",
+            "link": "https://plus.google.com/+CsabaTothMr"
+        },
+        {
             "icon": "twitter",
-            "link": "//twitter.com/dmpayton",
-            "name": "Twitter"
-          }
-        ]
-    },
-    "13": {
-        "id": 13,
-        "featured": false,
-        "name": "Todd McLeod",
-        "title": "CIT Profesor, Speaker, Go advocate",
-        "company": "Fresno City College, California State University Fresno",
-        "companyLogo": "/images/logos/fcc_logo_wordmark.png",
-        "country": "",
-        "photoUrl": "/images/people/todd_mcleod.jpg",
-        "shortBio": "CIT Profesor, Speaker",
-        "bio": "Todd McLeod is tenured faculty at Fresno City College and also work at California State University Fresno. Recent areas of focus include Go, Python, Java, Android, and Git.",
-        "tags": [
-            "Go",
-            "App Engine"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "//plus.google.com/+ToddMcLeod",
-            "name": "Google+"
-          }
-        ]
-    },
-    "14": {
-        "id": 14,
-        "featured": false,
-        "name": "Rio Waller",
-        "title": "Educator, GDG leader and motivational speaker",
-        "company": "Fresno City College",
-        "companyLogo": "/images/logos/fcc_logo_wordmark.png",
-        "country": "",
-        "photoUrl": "/images/people/rio_waller.jpg",
-        "shortBio": "Programmer, Educator and Motivational Speaker",
-        "bio": "Rio teaches various software courses at Fresno City College. She is the engine of GDG Fresno and Women TechMakers Fresno and this conference as well.",
-        "tags": [
-            "Community",
-            "General",
-            "Google"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "//plus.google.com/+RioWaller",
-            "name": "Google+"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/riowaller",
-            "name": "Twitter"
-          }
-        ]
-    },
-    "15": {
-        "id": 15,
-        "featured": false,
-        "name": "Jim Hutson",
-        "title": "Principal Software Engineer",
-        "company": "IDG Communications",
-        "companyLogo": "/images/logos/IDG.png",
-        "country": "",
-        "photoUrl": "/images/people/jim_hutson.jpg",
-        "shortBio": "Zen-like tech solutions. And a little Tai Chi.",
-        "bio": "Besides being a principal software engineer, Jim is also organizer of the GDG Modesto meetup",
-        "tags": [
-            "AMP",
-            "Web"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "//plus.google.com/+JimHutson",
-            "name": "Google+"
-          },
-          {
+            "name": "Twitter",
+            "link": "https://twitter.com/tocsa2"
+        },
+        {
             "icon": "linkedin",
-            "link": "//www.linkedin.com/in/jim-hutson-4ab06645",
-            "name": "Linkedin"
-          }
-        ]
-    },
-    "16": {
-        "id": 16,
-        "featured": false,
-        "name": "Matt Higley",
-        "title": "Developer Fellow",
-        "company": "Bitwise Industries",
-        "companyLogo": "/images/logos/bitwise.svg",
-        "country": "",
-        "photoUrl": "/images/people/matt_higley.jpg",
-        "shortBio": "An educator of technology for Geekwise Academy and a passionate Front End Developer",
-        "bio": "My career in technology literally began with a business card in 2008. After a much admired instructor handed me the business card of a local entrepreneur of a budding design firm based out of Fresno, a thirty minute phone conversation and a three hour visit launched me into an internship that radically changed my life. I studied the art of web development from the ground up and have never stopped learning since. Each company I worked with over the years have pushed my abilities to new heights while presenting constant challenges that have tested my skills. I have had the chance to work on content management systems with both Drupal and Wordpress, manned the camera and sound equipment for a local videographer and took some time to work as an independent developer. My love of the front-end web has kept me focused and provided the opportunities to share that passion with others. It began with an off-the-cuff request to stand-in for another instructor and turned into a full-time career with Bitwise Industries as a Developer Fellow. I have had the honor of teaching hundreds of students who have worked through the Geekwise Academy Bootcamp courses, some of which who have gone on to create new tech companies, and others working on some of the most cutting edge projects in the valley. I have taught a university level course at Fresno Pacific College, empowered individuals coming in on welfare through the Department of Social Services and now spend my time inspiring high schoolers from Kingsburg and Fowler high raising up the next generation of developers.",
-        "tags": [
-            "Web",
-            "CSS",
-            "UX"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "//www.facebook.com/matthewd.higley",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/matthewhigley",
-            "name": "Twitter"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/mhigley",
-            "name": "Linkedin"
-          },
-          {
-            "icon": "github",
-            "link": "//github.com/mhigley",
-            "name": "Github"
-          }
-        ]
-    },
-    "17": {
-        "id": 17,
-        "featured": false,
-        "name": "Rick Gomez",
-        "title": "Tech Consultant",
-        "company": "Geekwise Academy, Edit LLC",
-        "companyLogo": "/images/logos/bitwise.svg",
-        "country": "",
-        "photoUrl": "/images/people/rick_gomez.jpg",
-        "shortBio": "Web developer, tech instructor, & tech consultant at Geekwise Academy",
-        "bio": "Web developer, tech instructor, & tech consultant at Geekwise Academy",
-        "tags": [
-            "Maps",
-            "Free Code Camp",
-            "Cloud",
-            "Web"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "//www.facebook.com/rickagz",
-            "name": "Facebook"
-          },
-          {
-            "icon": "linkedin",
-            "link": "//www.linkedin.com/in/rickagz",
-            "name": "Linkedin"
-          }
-        ]
-    },
-    "19": {
-        "id": 19,
-        "featured": false,
-        "name": "Joshua Houser",
-        "title": "Robot dude",
-        "company": "Fresno Ideaworks, Schneider Electric",
-        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
-        "country": "",
-        "photoUrl": "/images/people/joshua_houser.jpg",
-        "shortBio": "CAD Geek, Coffee addict and love playing in the dirt and on the rocks",
-        "bio": "Founding member of Fresno Ideaworks, served roles in pushing brooms, opening doors, giant CNC programming, welding, community projects and outreach. One of the main geeks involved in Super Sumo Saturdays, helping folks put together and program their first Sumo Bot. Guilty for the creation of \"Smiley\", the somewhat erratic, pushy sumo bot. Also, a long time mentor for area FIRST Robotics teams, regional Judge Advisor for the Central Valley FIRST Robotics Competition and FLL Judge for the past 4 years. Also 20 years at Schneider Electric.",
-        "tags": [
-            "Maker Space",
-            "CAD",
-            "Robotics"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "//twitter.com/pelcojosh",
-            "name": "Twitter"
-          }
-        ]
-    },
-    "20": {
-        "id": 20,
-        "featured": false,
-        "name": "Andrew Runner",
-        "title": "Blacksmith Instructor",
-        "company": "Fresno Ideaworks",
-        "companyLogo": "/images/logos/ideaworks-logo-invert.png",
-        "country": "",
-        "photoUrl": "/images/people/andrew_runner.jpg",
-        "shortBio": "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
-        "bio": "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
-        "tags": [
-            "Maker Space",
-            "Arduino",
-            "Robotics",
-            "Smith"
-        ],
-        "badges": [
-        ],
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "//www.facebook.com/drewdaro",
-            "name": "Facebook"
-          }
-        ]
-    }
-}
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/csabatothdev"
+        }
+      ]
+   },
+  "10": {
+    "id": 10,
+    "featured": true,
+    "name": "Ideaworks Team",
+    "title": "How about we list each person in the bio area?",
+    "company": "Ideaworks",
+    "companyLogo": "/images/logos/ideaworks.jpg",
+    "country": "",
+    "photoUrl": "/images/people/makerspace.jpg",
+    "shortBio": "Ideaworks is a nonprofit oganization that provides a makerspace to the Central Valley",
+    "bio": "Ideaworks is a nonprofit oganization that provides a makerspace to the Central Valley. They are dedicated to providing thecommunity with resources to develop new skills throughhands-on teaching methods,collaboration, and entrepreneurish",
+    "tags": [
+      "Markerspace"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "gplus",
+        "name": "Google+",
+        "link": "https://plus.google.com/+CsabaTothMr"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/tocsa2"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/csabatothdev"
+      }
+    ]
+  },
+  "11": {
+    "id": 11,
+    "featured": true,
+    "name": "Alison Haugan",
+    "title": "President/Co-founder; Strategic Business Advisor; Speaker",
+    "company": "OptiStreams, Inc.",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/ahaugan.jpg",
+    "shortBio": "Alison Haugan is a pioneering entrepreneur, strategic business coach, and speaker....",
+    "bio": "Alison Haugan is a pioneering entrepreneur, strategic business coach, and speaker. She has spent the last 19 years as Co-Founder and President of a nationwide, satellite-based communications provider, OptiStreams, Inc., which was ranked #140 on Inc. Magazine’s Inc. 500 fastest growing privately held companies in America list for 2004, and continues to serve unique connectivity needs in rural areas.She coaches and works with entrepreneurs (and wanna-be entrepreneurs) and   professionals who are ready to “up their game” to take their business/career to the next level, increase financial stability and reserves, reduce stress, and leverage their personal power for stronger credibility, career advancement, and vision achievement.She also works with business owners and organizations to help them achieve more respectful, responsible and profitable work environments through her unique message of civility and virtues in business Contact her for more information and availability.",
+    "tags": [
+      "Entrepreneur"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "facebook",
+        "name": "Facebook",
+        "link": "https://www.facebook.com/alison.haugan"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://www.alisonhaugan.com"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/alisonhaugan"
+      }
+    ]
+   },
+  "12": {
+    "id": 12,
+    "featured": true,
+    "name": "Jesus Vega",
+    "title": "Front End Developer",
+    "company": "FreeCodeCamp Fresno",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/jes.jpg",
+    "shortBio": "I am a self taught front end developer. I help build beautiful interfaces.",
+    "bio": "I am a self taught front end developer. I help build beautiful interfaces.",
+    "tags": [
+      "Front End"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/paragonchuy"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://jesusvega.xyz"
+      }
+    ]
+   },
+  "13": {
+    "id": 13,
+    "featured": true,
+    "name": "Ahsen Baig",
+    "title": "Senior Programmer Analyst",
+    "company": "College of the Sequoias, GDG Visalia",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/ahsen.jpg",
+    "shortBio": "Ahsen is leader of GDG Visalia and a highly skilled programmer.",
+    "bio": "Ahsen has experience with multiple eco-systems (Google, Microsoft, ...) and their technology stacks. Once worked as a software engineer at NASA, today College of the Sequoias can be lucky enough to emply him.",
+    "tags": [
+        "Cloud",
+        "STEM"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "gplus",
+        "link": "//google.com/+AhsenBaig",
+        "name": "Google+"
+      }
+    ]
+   }
+  }
