@@ -53,7 +53,7 @@ app.get('/process', function(req, res) {
     if (rating.sessions) {
       Object.keys(rating.sessions).forEach(function(sessionId) {
         var session = rating.sessions[sessionId];
-        if (Object.keys(aggregatedSessionData).indexOf(session.toString()) < 0) {
+        if (Object.keys(aggregatedSessionData).indexOf(sessionId) < 0) {
           aggregatedSessionData[sessionId] = {
             rating: {
               content: { values: [], distribution: [0, 0, 0, 0, 0] },
