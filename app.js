@@ -85,7 +85,7 @@ app.get('/process', function(req, res) {
     }
   });
 
-  var linkStub = 'https://wtm2017r.firebaseapp.com/?uuid=' 
+  var linkStub = 'https://iwdc2017r.firebaseapp.com/?uuid=' 
   var links = {};
   Object.keys(aggregatedSessionData).forEach(function(key) {
     var guid = uuid.v4().replace(/-/g, '');
